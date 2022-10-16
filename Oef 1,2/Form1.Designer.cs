@@ -125,6 +125,7 @@
             this.textbox18.TabIndex = 52;
             this.textbox18.Text = "Copy";
             this.textbox18.UseVisualStyleBackColor = true;
+            this.textbox18.Click += new System.EventHandler(this.textbox18_Click);
             // 
             // textbox17
             // 
@@ -135,6 +136,7 @@
             this.textbox17.TabIndex = 51;
             this.textbox17.Text = "Search";
             this.textbox17.UseVisualStyleBackColor = true;
+            this.textbox17.Click += new System.EventHandler(this.textbox17_Click);
             // 
             // textbox16
             // 
@@ -145,6 +147,7 @@
             this.textbox16.TabIndex = 50;
             this.textbox16.Text = "Show List";
             this.textbox16.UseVisualStyleBackColor = true;
+            this.textbox16.Click += new System.EventHandler(this.textbox16_Click);
             // 
             // textbox14
             // 
@@ -155,6 +158,7 @@
             this.textbox14.TabIndex = 49;
             this.textbox14.Text = "Verwijderen";
             this.textbox14.UseVisualStyleBackColor = true;
+            this.textbox14.Click += new System.EventHandler(this.textbox14_Click);
             // 
             // textbox15
             // 
@@ -165,6 +169,7 @@
             this.textbox15.TabIndex = 48;
             this.textbox15.Text = "Leegmaken";
             this.textbox15.UseVisualStyleBackColor = true;
+            this.textbox15.Click += new System.EventHandler(this.textbox15_Click);
             // 
             // textbox13
             // 
@@ -175,6 +180,7 @@
             this.textbox13.TabIndex = 47;
             this.textbox13.Text = "Toevoegen";
             this.textbox13.UseVisualStyleBackColor = true;
+            this.textbox13.Click += new System.EventHandler(this.textbox13_Click);
             // 
             // textbox12
             // 
@@ -185,6 +191,7 @@
             this.textbox12.TabIndex = 46;
             this.textbox12.Text = "Copy";
             this.textbox12.UseVisualStyleBackColor = true;
+            this.textbox12.Click += new System.EventHandler(this.textbox12_Click);
             // 
             // textbox11
             // 
@@ -195,6 +202,7 @@
             this.textbox11.TabIndex = 45;
             this.textbox11.Text = "Search";
             this.textbox11.UseVisualStyleBackColor = true;
+            this.textbox11.Click += new System.EventHandler(this.textbox11_Click);
             // 
             // textbox10
             // 
@@ -205,6 +213,7 @@
             this.textbox10.TabIndex = 44;
             this.textbox10.Text = "Show List";
             this.textbox10.UseVisualStyleBackColor = true;
+            this.textbox10.Click += new System.EventHandler(this.textbox10_Click);
             // 
             // textbox9
             // 
@@ -215,6 +224,7 @@
             this.textbox9.TabIndex = 43;
             this.textbox9.Text = "Leegmaken";
             this.textbox9.UseVisualStyleBackColor = true;
+            this.textbox9.Click += new System.EventHandler(this.textbox9_Click);
             // 
             // textbox8
             // 
@@ -225,6 +235,7 @@
             this.textbox8.TabIndex = 42;
             this.textbox8.Text = "Verwijderen";
             this.textbox8.UseVisualStyleBackColor = true;
+            this.textbox8.Click += new System.EventHandler(this.textbox8_Click);
             // 
             // textbox7
             // 
@@ -235,6 +246,7 @@
             this.textbox7.TabIndex = 41;
             this.textbox7.Text = "Toevoegen";
             this.textbox7.UseVisualStyleBackColor = true;
+            this.textbox7.Click += new System.EventHandler(this.textbox7_Click);
             // 
             // label3
             // 
@@ -262,7 +274,7 @@
             this.label1.Size = new System.Drawing.Size(84, 15);
             this.label1.TabIndex = 38;
             this.label1.Text = "Stapel Integers";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // button6
             // 
@@ -273,6 +285,7 @@
             this.button6.TabIndex = 37;
             this.button6.Text = "Copy";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -283,6 +296,7 @@
             this.button5.TabIndex = 36;
             this.button5.Text = "Search";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -293,6 +307,7 @@
             this.button4.TabIndex = 35;
             this.button4.Text = "Show List";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -325,6 +340,7 @@
             this.button1.TabIndex = 32;
             this.button1.Text = "Toevoegen";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textbox2
             // 
