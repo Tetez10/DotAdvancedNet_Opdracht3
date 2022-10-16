@@ -18,7 +18,7 @@ namespace Oef_1_2
         }
         public override string ToString()
         {
-            return "ik noem " + Naam + " en ik ben " + Leeftijd;
+            return "my name is  " + Naam + " and im " + Leeftijd;
         }
 
 
