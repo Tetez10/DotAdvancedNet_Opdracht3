@@ -6,6 +6,13 @@ namespace Oef_1_2
         {
             InitializeComponent();
         }
+
+
+        Stapel<int> integers = new Stapel<int>();
+        Stapel<string> strings = new Stapel<string>();
+        Stapel<Auto> Autos = new Stapel<Auto>();
+
+
         private bool IsEveritingDigit(String text)
         {
             foreach (char c in text)
@@ -18,21 +25,19 @@ namespace Oef_1_2
             return true;
         }
 
-        Stapel<int> integers = new Stapel<int>();
-        Stapel<string> strings = new Stapel<string>();
-        Stapel<Persoon> personen = new Stapel<Persoon>();
+        
 
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (IsEveritingDigit(textbox1.Text))
             {
-                integers.OpDeStapel(int.Parse(textbox1.Text));
+                integers.AddStapel(int.Parse(textbox1.Text));
 
             }
             else
             {
-                MessageBox.Show("enkel integers toegelaten ! ");
+                MessageBox.Show("enkel integers aub ");
                 textbox1.Text = null;
             }
 
@@ -48,11 +53,11 @@ namespace Oef_1_2
         {
             if (integers.ToString() != string.Empty)
             {
-                integers.vanDeStapel();
+                integers.RemoveStapel();
             }
             else
             {
-                MessageBox.Show(" de stapel is al leeg ! ");
+                MessageBox.Show(" de stapel is  leeg.  ");
             }
 
         }
@@ -70,14 +75,14 @@ namespace Oef_1_2
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (integers.IsAanwezigOpStapel(int.Parse(textbox1.Text)))
+            if (integers.IsOpStapel(int.Parse(textbox1.Text)))
             {
 
-                MessageBox.Show(textbox1.Text + " " + "is aanwezig op de stapel van integers");
+                MessageBox.Show(textbox1.Text + "is aanwezig bij integers");
             }
             else
             {
-                MessageBox.Show("sorry maar " + textbox1.Text + " bestaat niet op de stapel");
+                MessageBox.Show(textbox1.Text + " bestaat niet");
             }
 
             textbox1.Text = null;
@@ -85,83 +90,99 @@ namespace Oef_1_2
 
         }
 
+
+
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(" oude lijst : " + integers.ToString() + "\n new list  : " + " " +
+            MessageBox.Show(" oude lijst : " + integers.ToString() + " nieuwe lijst  : " + " " +
              String.Join(",", integers.lijstCopy()));
 
 
         }
 
+
+
+
         private void textbox7_Click(object sender, EventArgs e)
         {
-            strings.OpDeStapel(textbox2.Text);
+            strings.AddStapel(textbox2.Text);
 
             textbox2.Text = null;
 
         }
 
+
+
+
         private void textbox8_Click(object sender, EventArgs e)
         {
             if (strings.ToString() != string.Empty)
             {
-                strings.vanDeStapel();
+                strings.RemoveStapel();
             }
             else
             {
-                MessageBox.Show("de stapel is al leeg !");
+                MessageBox.Show("de stapel is leeg");
             }
 
 
         }
 
-        private void textbox9_Click(object sender, EventArgs e)
-        {
-            strings.StapelLeegMaken();
-        }
+        
+
+
 
         private void textbox10_Click(object sender, EventArgs e)
         {
             stringlist.Text =  "strings : " +  strings.ToString();
         }
 
+
+        private void textbox9_Click(object sender, EventArgs e)
+        {
+            strings.StapelLeegMaken();
+        }
+
+
+
+
+
         private void textbox11_Click(object sender, EventArgs e)
         {
-            if (strings.IsAanwezigOpStapel(textbox2.Text))
+            if (strings.IsOpStapel(textbox2.Text))
             {
-                MessageBox.Show(textbox2.Text + " " + "is aanwezig op de stapel van strings");
+                MessageBox.Show(textbox2.Text + " " + "is aanwezig op de stapel strings");
             }
             else
             {
-                MessageBox.Show("sorry  " + textbox2.Text + "  :  bestaat niet op de stapel");
+                MessageBox.Show(textbox2.Text + "  :  bestaat niet in de stapel");
             }
 
             textbox2.Text = null;
 
         }
 
-        private void textbox12_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(strings.ToString() + "\n  new list is  : " + " " +
-              String.Join(",", strings.lijstCopy()));
-        }
 
+
+
+
+      
         private void textbox13_Click(object sender, EventArgs e)
         {
             if (textbox3.Text == string.Empty || textbox4.Text == string.Empty)
             {
 
-                MessageBox.Show("beide velden moeten ingevuld worden ! ");
+                MessageBox.Show("alle velden moeten gevuld");
 
             }
             else if (IsEveritingDigit(textbox4.Text) == false)
             {
-                MessageBox.Show(" leeftijd moet enkel getallen bevatten");
+                MessageBox.Show(" leeftijd in cijfers aub ");
             }
 
             else
             {
-                personen.OpDeStapel(new Persoon(textbox3.Text, int.Parse(textbox4.Text)));
+                Autos.AddStapel(new Auto(textbox3.Text, int.Parse(textbox4.Text)));
             }
 
             textbox3.Text = null;
@@ -169,47 +190,67 @@ namespace Oef_1_2
 
         }
 
-        private void textbox14_Click(object sender, EventArgs e)
+
+
+
+        private void textbox12_Click(object sender, EventArgs e)
         {
-            if (personen.ToString() != string.Empty)
-            {
-                personen.vanDeStapel();
-            }
-            else
-            {
-                MessageBox.Show("stapel is leeg  !");
-            }
+            MessageBox.Show(strings.ToString() + "\n  niewe lijst is : " + " " +
+              String.Join(",", strings.lijstCopy()));
         }
+
 
         private void textbox15_Click(object sender, EventArgs e)
         {
-            personen.StapelLeegMaken();
+            Autos.StapelLeegMaken();
         }
 
         private void textbox16_Click(object sender, EventArgs e)
         {
-            personenlist.Text = "personen : " +  personen.ToString();
+            personenlist.Text = "Autos : " +  Autos.ToString();
         }
 
-        private void textbox17_Click(object sender, EventArgs e)
+
+        private void textbox14_Click(object sender, EventArgs e)
         {
-            if (personen.IsAanwezigOpStapel(new Persoon(textbox3.Text, int.Parse(textbox4.Text))))
+            if (Autos.ToString() != string.Empty)
             {
-                MessageBox.Show(" persoon : " + " " + textbox3.Text + " en met leeftijd : " + " " + textbox4.Text + " " + "is aanwezig in de lijst van personen");
+                Autos.RemoveStapel();
             }
             else
             {
-                MessageBox.Show(" persoon  : " + " "+ textbox3.Text + " " + "bestaat niet ");
+                MessageBox.Show("stapel is leeg");
             }
         }
 
-        private void textbox18_Click(object sender, EventArgs e)
+
+
+
+        private void textbox17_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(" oude lijst  : " + personen.ToString() + "\n new list : " + " " +
-                String.Join(":", personen.lijstCopy()));
+            if (Autos.IsOpStapel(new Auto(textbox3.Text, int.Parse(textbox4.Text))))
+            {
+                MessageBox.Show(" auto : " + " " + textbox3.Text + " OpbouwJaar : " + " " + textbox4.Text + " " + "is aanwezig in de lijst van autos");
+            }
+            else
+            {
+                MessageBox.Show(" auto  : " + " "+ textbox3.Text + " " + "bestaat niet ");
+            }
         }
 
-        
+
+
+
+        private void textbox18_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" oude lijst  : " + Autos.ToString() + " nieuwe lijst : " + " " +
+                String.Join(":", Autos.lijstCopy()));
+        }
+
+        private void textbox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -13,12 +13,8 @@ namespace Oef_1_2
         private List<T> stapellijstCopy = new List<T>();
 
 
-        public void OpDeStapel(T toeTeVoegen)
-        {
-            Stapellijst.Add(toeTeVoegen);
-        }
-
-        public T vanDeStapel()
+        
+        public T RemoveStapel()
         {
             if (Stapellijst.Count <= 0)
             {
@@ -30,6 +26,11 @@ namespace Oef_1_2
 
             return updatedLijst;
         }
+        public void AddStapel(T toeTeVoegen)
+        {
+            Stapellijst.Add(toeTeVoegen);
+        }
+
 
         public void StapelLeegMaken()
         {
@@ -37,7 +38,7 @@ namespace Oef_1_2
         }
 
 
-        public bool IsAanwezigOpStapel(T tezoeken)
+        public bool IsOpStapel(T tezoeken)
         {
             foreach (T elements in Stapellijst)
             {
