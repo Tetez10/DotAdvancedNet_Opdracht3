@@ -112,13 +112,13 @@
             // 
             this.textbox4.Location = new System.Drawing.Point(1028, 108);
             this.textbox4.Name = "textbox4";
-            this.textbox4.Size = new System.Drawing.Size(241, 23);
+            this.textbox4.Size = new System.Drawing.Size(173, 23);
             this.textbox4.TabIndex = 53;
             // 
             // textbox18
             // 
             this.textbox18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textbox18.Location = new System.Drawing.Point(1060, 286);
+            this.textbox18.Location = new System.Drawing.Point(1038, 287);
             this.textbox18.Name = "textbox18";
             this.textbox18.Size = new System.Drawing.Size(153, 39);
             this.textbox18.TabIndex = 52;
@@ -131,7 +131,7 @@
             this.textbox17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox17.Location = new System.Drawing.Point(838, 286);
             this.textbox17.Name = "textbox17";
-            this.textbox17.Size = new System.Drawing.Size(115, 39);
+            this.textbox17.Size = new System.Drawing.Size(141, 39);
             this.textbox17.TabIndex = 51;
             this.textbox17.Text = "Search";
             this.textbox17.UseVisualStyleBackColor = true;
@@ -153,7 +153,7 @@
             this.textbox14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox14.Location = new System.Drawing.Point(838, 148);
             this.textbox14.Name = "textbox14";
-            this.textbox14.Size = new System.Drawing.Size(115, 39);
+            this.textbox14.Size = new System.Drawing.Size(141, 39);
             this.textbox14.TabIndex = 49;
             this.textbox14.Text = "Verwijderen";
             this.textbox14.UseVisualStyleBackColor = true;
@@ -164,7 +164,7 @@
             this.textbox15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox15.Location = new System.Drawing.Point(838, 201);
             this.textbox15.Name = "textbox15";
-            this.textbox15.Size = new System.Drawing.Size(115, 39);
+            this.textbox15.Size = new System.Drawing.Size(141, 39);
             this.textbox15.TabIndex = 48;
             this.textbox15.Text = "Leegmaken";
             this.textbox15.UseVisualStyleBackColor = true;
@@ -184,7 +184,7 @@
             // textbox12
             // 
             this.textbox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textbox12.Location = new System.Drawing.Point(375, 288);
+            this.textbox12.Location = new System.Drawing.Point(388, 286);
             this.textbox12.Name = "textbox12";
             this.textbox12.Size = new System.Drawing.Size(122, 37);
             this.textbox12.TabIndex = 46;
@@ -197,7 +197,7 @@
             this.textbox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox11.Location = new System.Drawing.Point(567, 288);
             this.textbox11.Name = "textbox11";
-            this.textbox11.Size = new System.Drawing.Size(122, 37);
+            this.textbox11.Size = new System.Drawing.Size(131, 37);
             this.textbox11.TabIndex = 45;
             this.textbox11.Text = "Search";
             this.textbox11.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             // textbox10
             // 
             this.textbox10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textbox10.Location = new System.Drawing.Point(375, 215);
+            this.textbox10.Location = new System.Drawing.Point(388, 224);
             this.textbox10.Name = "textbox10";
             this.textbox10.Size = new System.Drawing.Size(122, 37);
             this.textbox10.TabIndex = 44;
@@ -219,7 +219,7 @@
             this.textbox9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox9.Location = new System.Drawing.Point(567, 215);
             this.textbox9.Name = "textbox9";
-            this.textbox9.Size = new System.Drawing.Size(122, 37);
+            this.textbox9.Size = new System.Drawing.Size(131, 37);
             this.textbox9.TabIndex = 43;
             this.textbox9.Text = "Leegmaken";
             this.textbox9.UseVisualStyleBackColor = true;
@@ -230,7 +230,7 @@
             this.textbox8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox8.Location = new System.Drawing.Point(567, 162);
             this.textbox8.Name = "textbox8";
-            this.textbox8.Size = new System.Drawing.Size(122, 37);
+            this.textbox8.Size = new System.Drawing.Size(131, 37);
             this.textbox8.TabIndex = 42;
             this.textbox8.Text = "Verwijderen";
             this.textbox8.UseVisualStyleBackColor = true;
@@ -293,7 +293,7 @@
             this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.Location = new System.Drawing.Point(31, 288);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 37);
+            this.button5.Size = new System.Drawing.Size(134, 37);
             this.button5.TabIndex = 36;
             this.button5.Text = "Search";
             this.button5.UseVisualStyleBackColor = true;
@@ -315,7 +315,7 @@
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.Location = new System.Drawing.Point(34, 215);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 37);
+            this.button3.Size = new System.Drawing.Size(131, 37);
             this.button3.TabIndex = 34;
             this.button3.Text = "Leegmaken";
             this.button3.UseVisualStyleBackColor = true;
@@ -337,7 +337,7 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(34, 158);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 37);
+            this.button1.Size = new System.Drawing.Size(131, 37);
             this.button1.TabIndex = 32;
             this.button1.Text = "Toevoegen";
             this.button1.UseVisualStyleBackColor = true;
@@ -352,9 +352,9 @@
             // 
             // textbox3
             // 
-            this.textbox3.Location = new System.Drawing.Point(815, 108);
+            this.textbox3.Location = new System.Drawing.Point(838, 108);
             this.textbox3.Name = "textbox3";
-            this.textbox3.Size = new System.Drawing.Size(192, 23);
+            this.textbox3.Size = new System.Drawing.Size(169, 23);
             this.textbox3.TabIndex = 30;
             this.textbox3.TextChanged += new System.EventHandler(this.textbox3_TextChanged);
             // 
@@ -368,30 +368,33 @@
             // stringlist
             // 
             this.stringlist.AutoSize = true;
+            this.stringlist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.stringlist.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.stringlist.Location = new System.Drawing.Point(375, 407);
             this.stringlist.Name = "stringlist";
-            this.stringlist.Size = new System.Drawing.Size(93, 31);
+            this.stringlist.Size = new System.Drawing.Size(95, 33);
             this.stringlist.TabIndex = 61;
             this.stringlist.Text = "strings:";
             // 
             // personenlist
             // 
             this.personenlist.AutoSize = true;
+            this.personenlist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.personenlist.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.personenlist.Location = new System.Drawing.Point(860, 407);
+            this.personenlist.Location = new System.Drawing.Point(854, 410);
             this.personenlist.Name = "personenlist";
-            this.personenlist.Size = new System.Drawing.Size(86, 28);
+            this.personenlist.Size = new System.Drawing.Size(88, 30);
             this.personenlist.TabIndex = 60;
             this.personenlist.Text = "auto :";
             // 
             // integerlist
             // 
             this.integerlist.AutoSize = true;
+            this.integerlist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.integerlist.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.integerlist.Location = new System.Drawing.Point(34, 407);
             this.integerlist.Name = "integerlist";
-            this.integerlist.Size = new System.Drawing.Size(107, 31);
+            this.integerlist.Size = new System.Drawing.Size(109, 33);
             this.integerlist.TabIndex = 59;
             this.integerlist.Text = "integers:";
             // 
